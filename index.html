@@ -1,74 +1,170 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gizlilik Politikası - Orienteer Rush</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            line-height: 1.6;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        h1, h2 {
-            color: #2c3e50;
-        }
-        hr {
-            margin: 40px 0;
-            border: none;
-            border-top: 2px solid #ccc;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy / Gizlilik Politikası - DecoBros</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 2.5rem;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .brand { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
+    .lang-switcher button {
+      background: #0f172a;
+      color: var(--text);
+      border: 1px solid var(--border);
+      padding: 0.4rem 0.8rem;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .lang-switcher button.active {
+      background: var(--accent);
+      color: #0f172a;
+      border-color: var(--accent);
+    }
+    h1 { font-size: 1.8rem; margin-bottom: 0.5rem; color: #fff; }
+    .last-updated { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem; }
+    h2 { font-size: 1.2rem; margin: 1.5rem 0 0.5rem; color: var(--accent); }
+    p, ul { margin-bottom: 1rem; color: #cbd5e1; font-size: 0.95rem; }
+    ul { padding-left: 1.2rem; }
+    li { margin-bottom: 0.4rem; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact-box {
+      margin-top: 2rem;
+      padding: 1.2rem;
+      background: #0f172a;
+      border-radius: 8px;
+      border-left: 4px solid var(--accent);
+    }
+    .hidden { display: none; }
+  </style>
 </head>
 <body>
-    <h1>Gizlilik Politikası (Türkçe)</h1>
-    <p>Bu gizlilik politikası, <strong>DecoBro'sGaming</strong> tarafından geliştirilen "<strong>Orienteer Rush</strong>" adlı mobil uygulama için geçerlidir.</p>
 
-    <p>Uygulama, kullanıcıdan herhangi bir kişisel veri toplamaz, işlemez veya üçüncü taraflarla paylaşmaz. Uygulama, sadece oyun deneyimi sunmak amacıyla çalışır ve hiçbir şekilde kullanıcı verisi ile etkileşime girmez.</p>
+<div class="container">
+  <div class="header">
+    <div class="brand">DecoBros Games</div>
+    <div class="lang-switcher">
+      <button id="btn-tr" class="active" onclick="setLang('tr')">Türkçe</button>
+      <button id="btn-en" onclick="setLang('en')">English</button>
+    </div>
+  </div>
 
-    <p>Bu doğrultuda, uygulama:</p>
-    <ul>
-        <li>Kişisel veri toplamaz.</li>
-        <li>Konum, kamera, mikrofon gibi cihaz izinlerini kullanmaz.</li>
-        <li>Hiçbir üçüncü taraf analiz veya reklam hizmeti entegre etmez.</li>
-    </ul>
+  <!-- TÜRKÇE BÖLÜM -->
+  <section id="content-tr">
+    <h1>Gizlilik Politikası</h1>
+    <div class="last-updated">Son Güncelleme: 10 Kasım 2026</div>
 
-    <p>Kullanıcılar, uygulamayı tamamen güvenle kullanabilir. Gizliliğiniz bizim için önemlidir.</p>
+    <p>Bu gizlilik politikası, <strong>DecoBros</strong> ("biz", "tarafımız") tarafından geliştirilen ve Google Play Store ile diğer platformlarda yayınlanan mobil oyunlar (başta <em>Aqua Manager: Fish Tycoon</em> olmak üzere tüm DecoBros yapımları) için geçerlidir.</p>
 
-    <h2>Geliştirici Bilgileri</h2>
-    <p>
-        Geliştirici: DecoBro'sGaming<br>
-        İletişim: <a href="mailto:decbros.gaming@gmail.com">decbros.gamin@gmail.com</a>
-    </p>
+    <h2>1. Toplanan Veriler</h2>
+    <p>Oyunlarımızda zorunlu kullanıcı hesabı veya profil kaydı bulunmamaktadır. Adınız, e-posta adresiniz veya telefon numaranız gibi doğrudan kimlik belirten kişisel verileriniz tarafımızca toplanmaz veya sunucularımıza aktarılmaz. Oyun ilerlemesi ve ayarlarınız yerel olarak cihazınızda saklanır.</p>
 
-    <p>Bu gizlilik politikası <strong>18 Mayıs 2025</strong> tarihinde güncellenmiştir.</p>
+    <h2>2. Reklamlar ve Üçüncü Taraf Hizmetleri</h2>
+    <p>Oyunlarımız, ücretsiz sunulabilmesi amacıyla <strong>Google AdMob</strong> reklam ağını kullanmaktadır. Google, size uygun reklamlar sunmak, sahteciliği önlemek ve reklam performansını ölçmek amacıyla cihaz kimliği (Advertising ID / GAID), IP adresi, yaklaşık konum ve cihaz bilgileri gibi anonim teknik verileri işleyebilir.</p>
+    <p>Ayrıntılı bilgi için: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google İş Ortağı Politikaları</a></p>
 
-    <hr>
+    <h2>3. Kullanıcı Rızası (GDPR / KVKK)</h2>
+    <p>Avrupa Ekonomik Alanı (AEA), Birleşik Krallık ve İsviçre'deki kullanıcılara kişiselleştirilmiş reklamlar için Google Rıza Yönetim Platformu (CMP) üzerinden rıza formu gösterilir. Reklam tercihlerinizi cihazınızın Ayarlar menüsünden Reklam Kimliğini sıfırlayarak istediğiniz zaman değiştirebilirsiniz.</p>
 
-    <h1>Privacy Policy (English)</h1>
-    <p>This privacy policy applies to the mobile application "<strong>Orienteer Rush</strong>" developed by <strong>DecoBro'sGaming</strong>.</p>
+    <h2>4. Uygulama İçi Satın Almalar</h2>
+    <p>Uygulama içi satın alma işlemleri doğrudan <strong>Google Play Faturalandırma Sistemi (Google Play Billing)</strong> güvencesiyle yürütülür. Kredi kartı veya ödeme bilgileriniz tarafımıza asla ulaşmaz ve sunucularımızda saklanmaz.</p>
 
-    <p>The app does not collect, process, or share any personal data from users. It functions solely to provide a gaming experience and does not interact with user data in any way.</p>
+    <h2>5. Çocukların Gizliliği</h2>
+    <p>Oyunlarımız 13 yaş altı çocuklara özel olarak hedeflenmemiştir ve çocuklardan bilerek kişisel veri toplanmaz.</p>
 
-    <p>Accordingly, the app:</p>
-    <ul>
-        <li>Does not collect personal data.</li>
-        <li>Does not access device permissions such as location, camera, or microphone.</li>
-        <li>Does not use any third-party analytics or advertising services.</li>
-    </ul>
+    <h2>6. İletişim</h2>
+    <div class="contact-box">
+      Gizlilik politikamız, 6698 sayılı KVKK veya GDPR kapsamındaki haklarınızla ilgili sorularınız için bizimle iletişime geçebilirsiniz:<br>
+      <strong>E-posta:</strong> <a href="mailto:osmandmrhn.dev@gmail.com">osmandmrhn.dev@gmail.com</a>
+    </div>
+  </section>
 
-    <p>Users can use the app with complete confidence. Your privacy is important to us.</p>
+  <!-- ENGLISH SECTION -->
+  <section id="content-en" class="hidden">
+    <h1>Privacy Policy</h1>
+    <div class="last-updated">Last Updated: November 10, 2026</div>
 
-    <h2>Developer Information</h2>
-    <p>
-        Developer: DecoBro'sGaming<br>
-        Contact: <a href="mailto:decbros.gaming@gmail.com">decbros.gamin@gmail.com</a>
-    </p>
+    <p>This Privacy Policy applies to mobile games developed and published by <strong>DecoBros</strong> ("we", "our", "us") on Google Play Store and other platforms, including <em>Aqua Manager: Fish Tycoon</em> and other titles.</p>
 
-    <p>This privacy policy was last updated on <strong>May 18, 2025</strong>.</p>
+    <h2>1. Data Collection</h2>
+    <p>Our games do not require account creation. We do not collect or transmit personal information such as your name, email address, or phone number to our own servers. Your game save data and settings are stored locally on your device.</p>
+
+    <h2>2. Advertising & Third-Party SDKs</h2>
+    <p>We use <strong>Google AdMob</strong> to display ads. Google may collect and process information such as Advertising ID (GAID), IP address, coarse location, device identifiers, and ad interactions to serve and measure personalized or non-personalized ads and prevent invalid traffic.</p>
+    <p>For more details: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps</a></p>
+
+    <h2>3. User Consent (GDPR / UK GDPR)</h2>
+    <p>Users in the European Economic Area (EEA), UK, and Switzerland are presented with a consent banner via Google CMP. You can change your ad preferences or reset your advertising identifier anytime in your device's Settings.</p>
+
+    <h2>4. In-App Purchases</h2>
+    <p>All in-app purchases are securely processed through <strong>Google Play Billing</strong>. We do not process, receive, or store your credit card or financial information.</p>
+
+    <h2>5. Children's Privacy</h2>
+    <p>Our games are not directed to children under 13, and we do not knowingly collect personal information from children.</p>
+
+    <h2>6. Contact Us</h2>
+    <div class="contact-box">
+      If you have questions regarding this Privacy Policy or your data rights, please contact us at:<br>
+      <strong>Email:</strong> <a href="mailto:osmandmrhn.dev@gmail.com">osmandmrhn.dev@gmail.com</a>
+    </div>
+  </section>
+</div>
+
+<script>
+  function setLang(lang) {
+    const trSection = document.getElementById('content-tr');
+    const enSection = document.getElementById('content-en');
+    const btnTr = document.getElementById('btn-tr');
+    const btnEn = document.getElementById('btn-en');
+
+    if (lang === 'tr') {
+      trSection.classList.remove('hidden');
+      enSection.classList.add('hidden');
+      btnTr.classList.add('active');
+      btnEn.classList.remove('active');
+    } else {
+      enSection.classList.remove('hidden');
+      trSection.classList.add('hidden');
+      btnEn.classList.add('active');
+      btnTr.classList.remove('active');
+    }
+  }
+</script>
 </body>
 </html>
